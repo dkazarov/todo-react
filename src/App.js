@@ -29,15 +29,16 @@ function App() {
         <List
           items={[
             {
-              color: '#42B883',
+              color: 'green',
               name: 'Покупки',
             },
             {
-              color: '#64C4ED',
+              color: 'blue',
               name: 'Фронтенд',
+              active: true,
             },
             {
-              color: '#FFBBCC',
+              color: 'pink',
               name: 'Фильмы и сериалы',
             },
             {
