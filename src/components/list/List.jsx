@@ -6,7 +6,7 @@ import removeSvg from '../../assets/img/remove.svg';
 
 import './List.scss';
 
-const List = ({ items, isRemovable, onClick }) => {
+const List = ({ items, isRemovable, onClick, onRemove }) => {
   return (
     <ul onClick={onClick} className='list'>
       {items.map((item, index) => (
@@ -21,6 +21,7 @@ const List = ({ items, isRemovable, onClick }) => {
               className='list__remove-icon'
               src={removeSvg}
               alt='close icon'
+              onClick={onRemove}
             />
           )}
         </li>
