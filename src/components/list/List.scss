@@ -1,10 +1,14 @@
 .list {
   margin-bottom: 30px;
-  // &__add-button {
-  //   path {
-  //     stroke: #767676;
-  //   }
-  // }
+  &__add-button {
+    opacity: 0.5;
+    transition: .3s all;
+    &:hover {
+      opacity: 1;
+      transition: .3s all;
+    }
+  }
+
   li {
     display: flex;
     align-items: center;
@@ -35,7 +39,7 @@
         background-color: #64c4ed;
       }
       &--pink {
-        background-color: #FFBBCC;
+        background-color: #ffbbcc;
       }
     }
   }
