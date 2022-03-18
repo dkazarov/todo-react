@@ -7,6 +7,10 @@
       opacity: 1;
       transition: .3s all;
     }
+
+    &__remove-icon {
+
+    }
   }
 
   li {
@@ -15,6 +19,10 @@
     padding: 10px 12px;
     cursor: pointer;
     transition: .2s all;
+
+    span {
+      flex: 1;
+    }
     
     &:hover {
       transition: .2s all;

@@ -40,7 +40,7 @@ function App() {
             },
           ]}
         />
-        <List items={list} />
+        <List items={list} isRemovable />
       <AddList onAdd={onAddList} colors={DB.colors}/>
       </div>
       <div className='todo__tasks'></div>
