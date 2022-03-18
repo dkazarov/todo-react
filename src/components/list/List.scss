@@ -1,5 +1,10 @@
 .list {
   margin-bottom: 30px;
+  // &__add-button {
+  //   path {
+  //     stroke: #767676;
+  //   }
+  // }
   li {
     display: flex;
     align-items: center;
@@ -14,7 +19,7 @@
 
     i {
       display: inline-flex;
-      margin-right: 6px;
+      margin-right: 8px;
       svg path {
         fill: #7c7c7c;
       }
